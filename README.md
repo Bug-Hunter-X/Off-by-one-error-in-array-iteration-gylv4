@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in TypeScript when iterating over arrays.  The `printArray` function incorrectly uses `i <= arr.length` as the loop condition, leading to an out-of-bounds access.  The solution demonstrates the correct approach using `i < arr.length`.
